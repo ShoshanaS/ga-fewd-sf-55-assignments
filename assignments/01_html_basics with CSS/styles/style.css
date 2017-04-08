@@ -1,0 +1,32 @@
+
+body{
+  background: #f0f0f0;
+  border-top: 10px solid #000;
+  border-bottom: 10px solid #000;
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-color: #697c9b
+  letter-spacing: -0.1;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-color: #697c9b;
+}
+section{
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+p{
+  font-family: georgia;
+}
+img{
+  width: 400px;
+  border: 2px solid #000;
+  padding: 2px;
+}
