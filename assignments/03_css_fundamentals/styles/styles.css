@@ -1,0 +1,61 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* SECTION STYLES
+/*******************************************/
+
+.relaxr-header{
+  background: url(images/header_bg.jpg) no-repeat;
+  background-size: cover;
+  margin: auto;
+  font-family: Helvetica sans-serif;
+  font-size: 30pt;
+  line-height: 1.2em;
+  color: #fff;
+  text-align: center;
+}
+
+/*Can you add "alt" to images in the stylesheet? When do you use margin:auto and when do you use background: cover?*/
+
+.relaxr-yellow-button{
+  width:20%;
+  color: #f9f50e;
+  text-align: center;
+  text-decoration-color: #000;
+  margin: auto;
+  border: 8px;
+  border-color: #f9f50e;
+  padding: 8px;
+}
+
+.relaxr-black-button{
+  height: 20px
+  width:50px;
+  color: #000;
+  text-align: center;
+}
+
+.relaxr-bulletted-list{
+
+
+}
+
+.relaxr-testimonial-contributor{
+  background: url(images/testimonial_bg.png) no-repeat;
+  background-size: cover;
+}
+
+.relaxr-sign-up-banner{
+
+
+}
+
+.relaxr-footer{
+
+
+}
