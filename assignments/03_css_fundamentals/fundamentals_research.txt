@@ -1,0 +1,63 @@
+1. Why is it important to keep HTML and CSS separate?
+    • Keeping HTML and CSS separate makes global changes possible, which is useful when expanding or revising a site’s content. 
+    • It is to our advantage to set up a web site with multiple pages tied to a single style sheet, instead of embedding styles within pages that will eventually change or disappear.  
+    • Separating HTML and CSS also improves search ability and speed, as well as short-term and long-term work efficiency. 
+
+
+
+2. How do you add comments in CSS?
+  • Bookend the text with a slash and an astirx like this:
+      /* Comment goes here */
+
+
+
+3. What are the normalize.css and reset.css files? What are they used for?
+  • Every browser has a "user agent" style sheet that it uses to render un-styed pages or page elements. Internet Explorer has the most unique default styling, but every browser has a unique native css.   
+  
+  • CSS Reset is a tool used by developers to have a higher degree of control over a page's style. Using a CSS reset, authors can force a "user agent" (browser) to null pre-set properties for common html elements like H1-H6, links, and the default font. 
+  
+  • CSS Normalize is an alternative based on hundreds of hours of reasearch on the differences between default browser styles. The entire project history is part of the public domain on GitHub. Among other things, it aims to do the following:
+    • Preserves useful browser defaults raither than erasing them.
+    • Correct bugs and common browser inconsistencies.
+    Explain the code using comments and detailed documentation. 
+    • Is espeiccally useful for forms, which are less standardized among different browsers than other elements. 
+    • Nicolas Gallagher blog outlines two approaches:
+
+      1: use normalize.css as a starting point for your own project’s base CSS, customising the values to match the design’s requirements.
+
+      2: include normalize.css untouched and build upon it, overriding the defaults later in your CSS if necessary.
+
+
+
+4. What is the CSS Box Model?
+  • The box model is the foundation for web page layout. Each element is represented by a rectangular box. The box’s contents are in the center and built around it are the padding, border, and margin (like an onion!). As a browser renders a web page layout, it figures out which styles are applied to which parts of the onion. Here’s how each layer works:
+  
+  • Content: box content is defined by absolute values (width and height) or relative values (min-width, max-width, min-height, max-height)
+  
+  • Padding: inner margin of a CSS box, between the content box and the inner edge of the border. This can be set on all four sides by defining “padding,” or can be defined on each side individually using “padding-top,” “padding-right,” “padding-bottom,” and “padding-left.” Note that when two elements with 0px margin and no border touch, the space between them will equal the sum of their padding. 
+  
+  • Border: The border of a box sits between the outer edge of the padding and the inner edge of the margin. You can set all four sides at once (border: 3px solid red) or be more specific (border-top, border-right, border-width, border-color, border-style etc.) or by combining these properties (border-left-style, border-top-color, etc.)
+  
+  • Margin: Defines the outer edge surrounding the CSS content, its padding, and its border. It behaves similar to padding, but when margins of two elements touch, the space between them will be the value of whichever element is set with a thicker margin.  
+
+
+
+5. What is the difference between an inline and block-level element?
+  
+  • An inline element does not start on a new line and only takes up a defined amount of space. Examples of inline elements:
+    ⁃ <img>
+    ⁃ <a>
+    ⁃ <span>
+    ⁃ <p>This is <span class="trendwatch-h3" style="border-width:1px;border-style:solid;padding:5px">an inline <span> element inside</span> a paragraph.</p> 
+  
+  • A block-level element starts on a new line and stretches as far left and right as it can. A <div> element is a black-level element.
+    ⁃ <div class="trendwatch-text-border" style="border-width:1px; border-style:solid; padding:5px;"> 
+    ⁃ The <div> element is a block-level element.</div> 
+
+
+Sources:
+w3schools
+mozilladeveloper
+stackoverflow
+cssreset.com
+nicolasgallagher.com
