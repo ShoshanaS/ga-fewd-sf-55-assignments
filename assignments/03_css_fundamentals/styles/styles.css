@@ -1,61 +1,198 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+.body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
 
+.blog{
+  margin: 25px;
+  background: #f6f6f6;
+}
+
+.meganav{
+  background: #102e5e;
+  width: 100%;
+  height: 80px;
+  align-content: center;
+  color: #f9f50e;
+}
+
+.relaxr_logo{
+  padding: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.relaxr_li{
+  display: block;
+  float: left;
+  padding: 8px;
+  list-style-type: none;
+}
 
 
 
 /******************************************
-/* SECTION STYLES
+/* INTRO SECTION STYLES
 /*******************************************/
 
-.relaxr-header{
-  background: url(images/header_bg.jpg) no-repeat;
-  background-size: cover;
-  margin: auto;
-  font-family: Helvetica sans-serif;
-  font-size: 30pt;
-  line-height: 1.2em;
-  color: #fff;
-  text-align: center;
+.relaxr_header{
+  background-image: url("../images/header_bg.jpg");
+  background-repeat:no-repeat;
+  height: 500px;
+  width: 100%;
 }
 
+.tagline {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
+  font-weight: 300;
+
+}
 /*Can you add "alt" to images in the stylesheet? When do you use margin:auto and when do you use background: cover?*/
 
-.relaxr-yellow-button{
+/******************************************
+/* BUTTON STYLES
+/*******************************************/
+
+.relaxr_button{
   width:20%;
-  color: #f9f50e;
+  border-radius: 5px;
+  color: black;
+  font-weight: 800;
   text-align: center;
-  text-decoration-color: #000;
   margin: auto;
-  border: 8px;
+  background: #f9f50e;
+  border-width: 8px;
   border-color: #f9f50e;
   padding: 8px;
 }
 
-.relaxr-black-button{
-  height: 20px
-  width:50px;
-  color: #000;
+.button_black{
+    background: #102e5e;
+    color: white;
+}
+
+#inner{
+  width: 50%;
+  margin: 0 auto;
+}
+
+/******************************************
+/* BENEFITS SECTION
+/*******************************************/
+
+#benefits{
+    padding: 20px 55px;
+    max-width: 500px;
+    color: #666666;
+}
+
+.relaxr_h3{
+  font-size: 30px;
+  color: black;
+}
+
+/******************************************
+/* TESTIMONIAL SECTION STYLES
+/*******************************************/
+
+.relaxr_testimonial{
+  background: url(../images/testimonial_bg.jpg) no-repeat;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 200px;
+  color: #fff;
   text-align: center;
+  padding: 40px;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 28px;
 }
 
-.relaxr-bulletted-list{
-
-
+#relaxr_testimonial_contributer{
+  font-weight: 700;
 }
 
-.relaxr-testimonial-contributor{
-  background: url(images/testimonial_bg.png) no-repeat;
-  background-size: cover;
+.relaxr_sign_up_banner{
+  background: #f9f50e;
+  width: 100%;
+  height: 80px;
+  align-content: center;
 }
 
-.relaxr-sign-up-banner{
 
+/******************************************
+/* ARTICLE STYLES
+/*******************************************/
 
+.relaxr_article{
+  border-bottom: 4px;
+  padding:10px;
+  margin-bottom: 25px;
+  color: #606060;
 }
 
-.relaxr-footer{
+.relaxr_article_title{
+  color: #102e5e;
+  font-size: 37px;
+}
+
+.dropcap{
+  font-size: 50px;
+  color: #666666;
+  padding-left: 5px;
+}
+
+.relaxr_read_more{
+  font-weight: 800;
+  text-align: right;
+  color: #102e5e;
+}
+
+.relaxr_img{
+  max-width: 400px;
+}
+
+/******************************************
+/* SIDEBAR SECTION STYLES
+/*******************************************/
+
+.sidebar_h4{
+  font-size: 18px;
+  color:#102e5e;
+  font-weight: 700;
+  padding-bottom: 6px;
+}
+
+.sidebar_link{
+  font-size: 15px;
+  font-style: italic;
+}
 
 
+
+/******************************************
+/* FOOTER SECTION STYLES
+/*******************************************/
+
+.relaxr_footer{
+  background: #202226;
+  width: 100%;
+  height: 200px;
+}
+
+.social_icons{
+  float: center;
+  padding: 15px;
+  width: 50%;
+}
+
+.relaxr_copyright{
+  font-size: 10px;
+  color: white;
+  text-align: center;
 }

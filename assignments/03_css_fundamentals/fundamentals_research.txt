@@ -50,7 +50,7 @@
     ⁃ <span>
     ⁃ <p>This is <span class="trendwatch-h3" style="border-width:1px;border-style:solid;padding:5px">an inline <span> element inside</span> a paragraph.</p> 
   
-  • A block-level element starts on a new line and stretches as far left and right as it can. A <div> element is a black-level element.
+  • A block-level element starts on a new line and stretches as far left and right as it can. A <div> element is a block-level element.
     ⁃ <div class="trendwatch-text-border" style="border-width:1px; border-style:solid; padding:5px;"> 
     ⁃ The <div> element is a block-level element.</div> 
 

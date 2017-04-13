@@ -3,26 +3,25 @@
   <head>
     <title>Relaxr.</title>
     <meta description="Relaxr does your job for you so you can enjoy life. Get peace of mind with our innovative AI technology. Sign up now!">
-    <!--Shoshana: Add keywords!!-->
     <meta name="keywords" content="one, two, three">
     <!-- External CSS files -->
-    <!-- BONUS: look into using normalize.css or reset.css -->
-    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
-  <body>
-    <header id="relaxr-header">
-    <!--how do you insert the image of the logo to float top left on every page? How do you make it a link on other pages, but not the home page?-->
+  
+  <body class="body">
+    
+    <header class="relaxr_header">
+      <h1 class="relaxr_logo">Relaxr</h1>
+      <h2 class="tagline">Get peace of mind with a single tap</h2>
+      <div class="relaxr_button">Get it Now</div>
     </header>
 
-    <section>
-      <h1>Get peace of mind with a single tap</h1>
-      <div class="relaxr-yellow-button">Get it Now</div>
-    </section>
-
-    <section>
-      <h2>Benefits</h2>
+    <section id="benefits">
+      <h3 class="relaxr_h3">Benefits</h3>
       <p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
-      <ul class="relaxr-bulletted-list">
+      <ul class="relaxr_bulletted_list">
         <li>Schedule meetings for you.</li>
         <li>Excel automation to complete your work for you.</li>
         <li>Responds to emails on your behalf.</li>
@@ -30,21 +29,19 @@
         </ul>
     </section>
 
-    <section>
-      <img src="images/testimonial_bg.jpg" alt="image of dark blue ocean surface">
-      <p class="relaxr-testimonial">"Relaxr changed my life. I've been able to travel the world, spend limited time working, and my boss keeps thanking me for crushing work."</p>
-      <p class="relaxr-testimonial-contributor"> - Amanda, Intuit</p>      
+    <section class="relaxr_testimonial">
+      <p>"Relaxr changed my life. I've been able to travel the world, spend limited time working, and my boss keeps thanking me for crushing work."</p>
+      <p id="relaxr_testimonial_contributer"> - Amanda, Intuit</p>      
     </section>
 
-    <section class="relaxr-sign-up-banner">
-      <div class="relaxr-black-button">Sign Up Now!</div>
+    <section class="relaxr_sign_up_banner">
+      <div class="relaxr_button button_black inner">Sign Up Now!</div>
     </section>
 
-    <footer class="realxr-footer">
-      <!--Insert Relaxer logo here-->
-      <img src="images/twitter.png" alt="Follow Relaxr on twitter"><a href="http://www.twitter.com">
-      <img src="facebook.png" alt="Like Relaxr on facebook"><a href="http://www.facebook.com">
-      <p>Copyright 2015. Relaxr.</p>
+    <footer class="relaxr_footer">
+      <span class="social_icons"><a href="http://www.twitter.com"><img src="images/twitter.png" alt="Follow Relaxr on twitter"></a></span>
+      <span class="social_icons"><a href="http://www.facebook.com"><img src="images/facebook.png" alt="Like Relaxr on facebook"></a></span>
+      <p class="relaxr_copyright">Copyright 2015. Relaxr.</p>
     </footer>
 
   </body>
