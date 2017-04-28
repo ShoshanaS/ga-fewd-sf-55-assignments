@@ -7,41 +7,59 @@
 }
 
 .blog{
-  margin: 25px;
-  background: #f6f6f6;
+  margin: 0px;
+  background: #e8edea;
 }
 
 .meganav{
   background: #102e5e;
   width: 100%;
-  height: 80px;
-  align-content: center;
+  height: 90px;
   color: #f9f50e;
 }
 
 .relaxr_logo{
-  padding: 30px;
+  padding: 0px 0px 0px 40px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
+  float: left;
 }
 
-.relaxr_li{
-  display: block;
-  float: left;
-  padding: 8px;
+/*Navigation*/
+.nav_ul{
+  float:right;
   list-style-type: none;
+  color: #e8df37;
+  display: inline;
+  padding: 20px 10% 0px 0%;
+}
+
+.nav_ul a{
+  padding: 8px;
+  text-decoration: none;
+  color: #e8df37;
+}
+
+.nav_ul.a:hover{ text-decoration: none; color: #fff;}
+.nav_ul.a:visited{ text-decoration: none; color: #e8df37;}
+.nav_ul.a:active{ text-decoration: none; color: #e8df37;}
+.nav_ul.a:active, a:hover{ text-decoration: none; color: #fff;}
+
+.nav_ul li{
+  display: inline;
+  float: right;
 }
 
 
 
 /******************************************
-/* INTRO SECTION STYLES
+/* SPLASH PAGE INTRO SECTION STYLES
 /*******************************************/
 
-.relaxr_header{
+.splashpage_header{
   background-image: url("../images/header_bg.jpg");
   background-repeat:no-repeat;
-  height: 500px;
+  height: 450px;
   width: 100%;
 }
 
@@ -58,7 +76,7 @@
 /* BUTTON STYLES
 /*******************************************/
 
-.relaxr_button{
+.button{
   width:20%;
   border-radius: 5px;
   color: black;
@@ -71,7 +89,8 @@
   padding: 8px;
 }
 
-.button_black{
+/*Black Button*/
+.black{
     background: #102e5e;
     color: white;
 }
@@ -129,22 +148,34 @@
 /* ARTICLE STYLES
 /*******************************************/
 
-.relaxr_article{
-  border-bottom: 4px;
-  padding:10px;
-  margin-bottom: 25px;
-  color: #606060;
+.article{
+  border-bottom: solid 1px;
+  padding-bottom: 1%;
+  margin: 3% 0px 7% 40px;
+  color: #000;
+  width: 80%;
 }
 
-.relaxr_article_title{
+.article_title{
   color: #102e5e;
-  font-size: 37px;
+  font-size: 32px;
+}
+
+.article_title:hover{
+  color: #547fc4;
+}
+
+p{
+    line-height: 1.6em;
 }
 
 .dropcap{
-  font-size: 50px;
+  float: left;
+  font-size: 400%;
+  line-height: 110%;
   color: #666666;
-  padding-left: 5px;
+  padding-right: 5px;
+  width: 0.7em;
 }
 
 .relaxr_read_more{
@@ -153,8 +184,12 @@
   color: #102e5e;
 }
 
+.relaxr_read_more:hover{
+  color: #547fc4;
+}
+
 .relaxr_img{
-  max-width: 400px;
+  max-width: 100%;
 }
 
 /******************************************
@@ -183,12 +218,27 @@
   background: #202226;
   width: 100%;
   height: 200px;
+  margin: 0 auto;
+}
+
+.relaxr_footer .relaxr_logo{
+  float: none;
+  display: inline-block;
+}
+
+.relaxr_footer ul{
+  display: block;
+  margin: 0 auto;
+}
+
+.relaxr_footer li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .social_icons{
-  float: center;
-  padding: 15px;
-  width: 50%;
+  padding: 10px;
 }
 
 .relaxr_copyright{
