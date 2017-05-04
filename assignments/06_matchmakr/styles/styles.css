@@ -1,0 +1,42 @@
+.header {
+    overflow: auto;
+}
+
+.logo {
+  float: left;
+  letter-spacing: 0.2em;
+}
+
+ul{
+  float:right;
+}
+
+li {
+  display: inline-block;
+}
+
+.tagline {
+  text-align: center;
+  background-color: yellow;
+}
+
+.intro {
+  overflow: auto;
+  background-image: url("https://www.bloomsbythebox.com/blog/wp-content/uploads/2012/03/pink-ranunculus1.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+
+.teaserBox{
+  float:right;
+  background: white;
+  background: rgba(255,255,255,0.5);
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.ThreeColumnContainer {
+  width: 33.33%;
+  margin: 20px 20px 20px 0px;
+  float: left;
+}
