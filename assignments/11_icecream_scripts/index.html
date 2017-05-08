@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Get ready for some ice cream</title>
+    <meta name="description" content="Site description goes here">
+    <meta name="keywords" content="keywords, go, here">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Rubik" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="hidden">
+      <div class="wrapper">
+        <header>
+          <h3>Click on the options below to build your order</h3>
+        </header>
+      </div>
+    </div>
+
+    <h2>Flavor</h2>
+    <ul>
+      <li id="chocolate">Chocolate</li>   
+      <li id="raspberry">Raspberry</li>
+      <li id="strawberry">Strawberry</li>
+      <li id="mystery">Mystery</li>
+    </ul>
+
+    <h2>Number of Scoops</h2>
+    <ul>   
+      <li id="two" class="numberofscoops">2</li>
+      <li id="three" class="numberofscoops">3</li>
+      <li id="four" class="numberofscoops">4</li>
+    </ul>
+
+    <div id="yourorder">
+      <h1>Your Order</h1>
+      <h4><span id="numberofscoops"></span><span id="yourflavor"></span></h4>
+    </div>
+
+    <h1 class="special">I scream, you scream, we all scream for ice cream!</h1>
+    
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/index.js"></script>
+    
+  </body>
+</html>
