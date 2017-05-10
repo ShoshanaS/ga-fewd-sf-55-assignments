@@ -39,8 +39,8 @@ h1{
 .special {
   color: #ffedf6;
   text-shadow:
-  -5px -5px 0 #3a022a,  
-  5px -5px 0 #3a022a,
+  -6px -6px 0 #3a022a,  
+  6px -6px 0 #3a022a,
   -3px 3px 0 #3a022a,
   3px 3px 0 #3a022a;
   font-size: 100px;
@@ -111,7 +111,6 @@ li {
   display: inline-block;
   margin-top: 30px;
 }
-
 
 /*font-family: 'Quicksand', sans-serif;
 'Rubik', sans-serif;
