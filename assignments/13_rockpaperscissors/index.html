@@ -6,6 +6,7 @@
     <meta name="description" content="Site description goes here">
     <meta name="keywords" content="keywords, go, here">
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Monoton|Roboto|Roboto+Condensed: 800|Shrikhand|Unica+One" rel="stylesheet">
   </head>
   <body>
     <h1>Rock, Paper, or Scissors?</h1>
@@ -17,8 +18,8 @@
       <table>
         <tbody>
           <tr>
-            <td id="humanScore">0</td>
-            <td id="computerScore">0</td>
+            <td id="humanscore">0</td>
+            <td id="botscore">0</td>
           </tr>
         </tbody>
         <tfoot>
@@ -39,9 +40,7 @@
     </ul>
 
     <div id="status"></div>
-    <p>Human choice: <span id="humanchoice">[human choice]</span></p>
-    <p>Bot choice: <span id="botchoice">[bot choice]</span></p>
-    <p>Result: <span id="result">[Result]</span>
+    <p id="result">[Result]</p>
     
 
     <script src="scripts/jquery-3.2.1.min.js"></script>

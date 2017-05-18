@@ -1,14 +1,35 @@
+/*
+font-family: 'Shrikhand', cursive;
+font-family: 'Unica One', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Abel', sans-serif;
+*/
+
 body {
-  font-family: monospace;
+  font-family: 'Abel', sans-serif;;
   font-size: 20px;
   text-align: center;
-  background: black;
-  color: lime;
+  background: #19323C;
+  color: #F2545B;
   margin: 3em;
 }
 
 strong {
-  text-decoration: underline;
+  font: 800 18px 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 0.95em;
+}
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+  text-transform: uppercase;
 }
 
 #options li {
@@ -16,28 +37,32 @@ strong {
 }
 
 button {
-  background: lime;
-  color: black;
+  background: #F2545B;
+  color: #19323C;
   border: none;
-  padding: 10px 15px;
+  border-radius: 30px;
+  padding: 10px 25px;
+  margin: 5px 5px;
   font-size: 1.2em;
-  font-family: monospace;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
-}
+} 
 button:active {
-  background: green;
+  background: #F2545B;
 }
 
 .scoreboard {
   width: 14em;
   margin: auto;
-  border: 1px solid lime;
+  border: 1px solid #F2545B;
 }
 .scoreboard h2 {
-  border-bottom: 1px solid lime;
+  border-bottom: 1px solid #F2545B;
   margin: 0;
   padding: 10px;
+  text-align: center;
 }
 .scoreboard table {
   margin: 10px auto;
