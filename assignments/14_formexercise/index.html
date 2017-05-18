@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Course Application</title>
+    <meta name="description" content="Site description goes here">
+    <meta name="keywords" content="keywords, go, here">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Monoton|Roboto|Roboto+Condensed: 800|Shrikhand|Unica+One" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <!--Put this inside the form element--><h1>Course  Application</h1> 
+    <form>
+      <fieldset>
+        <legend>Your Contact Info</legend>
+          <label>Your Name</label> 
+          <input type="text" name="firstname" size="35" placeholder="First"><br>
+          <label>Phone Number</label><input type="text" placeholder=""><br>
+          Address <input type="text" placeholder="Street Address">
+      </fieldset>
+
+      <fieldset>
+        <legend>Skills &amp; Interests</legend>
+          <label>Course</label>
+            <select required="*">
+              <p>Test</p>
+              <option value="WaterColors">Water colors</option>
+              <option value="OilPaints">Oil Paints</option>
+              <option value="Figure Drawing">Figure Drawing</option>
+              <option value="Ceramics">Ceramics</option>
+            </select><br>
+          <label>Past Experience</label> <input type="text" placeholder="What relevent experience has lead you here?"><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Anything Else?</legend>
+          <label>Referral</label>
+            <select required="*">
+              <option value="None">None</option>
+              <option value="Friend">Friend</option>
+              <option value="Instructor">Instructor</option>
+              <option value="Online">Online</option>
+            </select>
+
+          <br>
+          <label>Comments</label> <input type="text" size="100" size="10" placeholder="Is there anything we should know about your reference?"><br>
+      </fieldset>
+
+    </form>
+
+    <button>Save Draft</button>
+    <button type="Submit">Submit</button>
+
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/faq.js"></script>
+
+  </body>
+</html>
